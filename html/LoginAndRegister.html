@@ -1,15 +1,17 @@
+<!-- this is the login and registration html-Eddy-->
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- this is the tabs name-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full-Stack & Registration Form with Admin Page</title>
+    <title>Study Buddy Fontend & Registration Form with Admin Page</title>
     <link rel = "stylesheet" href = "/css/LoginAndRegister.css">
 </head>
 
-<body>
 
+<body>
+    <!-- This is the page for the login-->
     <div class = "container">
         <h1>Study Buddy</h1>
         <div class = "form-box active" id = "login-form">
@@ -21,10 +23,12 @@
                 <p>Register for an account! <a href = "#" onclick = "showForm('register-form')">Register</a></p>
             </form>
         </div>
-
+<!--this is the page for the registration-->
         <div class = "form-box" id = "register-form">
             <form action = "">
                 <h2>Register</h2>
+                <input type = "FirstName" name = "FirstName" placeholder = "First Name:" required>
+                <input type = "Surname" name = "Surname" placeholder = "Last Name:" required>
                 <input type = "Sam ID" name = "Sam ID" placeholder = "Sam ID" required>
                 <input type = "password" name = "password" placeholder = "Password" required>
                 <select name = "Role" requiered>
