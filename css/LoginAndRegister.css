@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;700&display=swap');
-
+/*Box conating the information*/
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
     font-family: "Poppins", serif;
 
 }
-
+/*Background*/
 body {
     display: flex;
     justify-content: center;
@@ -16,17 +16,17 @@ body {
     background: linear-gradient(#e2e2e2, #ff5100);
     color: #333;
 }
-
+/*centering the form box*/
 .container{
     margin: 0 15px;
 }
-
+/*Study Buddy title on top of box*/
 h1 {
     font-size: 34px;
     text-align: center;
     margin-bottom: 20px;
 }
-
+/*the form box*/
 .form-box {
     width: 100%;
     max-width: 450px;
@@ -36,17 +36,18 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: none;
 }
-
+/*allows us to switch between login and registration page*/
+/*with some help of java script*/
 .form-box.active {
     display: block;
 }
-
+/*Font for login/registration title*/
 h2 {
     font-size: 34px;
     text-align: center;
     margin-bottom: 20px;
 }
-
+/*contents inside the form box*/
 input,
 Select {
     width: 100%;
@@ -59,7 +60,7 @@ Select {
     color: #333;
     margin-bottom: 20px;
 }
-
+/*Button styling*/
 button {
     width: 100%;
     padding: 12px;
@@ -73,22 +74,22 @@ button {
     margin-bottom: 20px;
     transition: 0.5s;
 }
-
+/*Buttons color darkens when hovering*/
 button:hover {
     background: #6884d3;
 }
-
+/*Alligment for login/register under button*/
 P {
     font-size: 14.5px;
     text-align: center;
     margin-bottom: 10px;
 }
-
+/*color of login/register under button*/
 p a {
     color: #7494ec;
     text-decoration: none;
 }
-
+/*displays a line under register/login under button*/
 p a :hover {
     text-decoration: underline;
 }
